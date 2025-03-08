@@ -1,0 +1,11 @@
+--- ecl/EKF/estimator_interface.h
++++ ecl/EKF/estimator_interface.h
+@@ -205,7 +205,7 @@ public:
+ 
+ 	bool get_mag_decl_deg(float *val) const
+ 	{
+-		*val = math::degrees(_mag_declination_gps);
++		*val = matrix::degrees(_mag_declination_gps);
+ 		return true;
+ 	}
+ 

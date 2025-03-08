@@ -1,0 +1,13 @@
+--- ecl/EKF/airspeed_fusion.cpp
++++ ecl/EKF/airspeed_fusion.cpp
+@@ -54,8 +54,8 @@ void Ekf::fuseAirspeed()
+ 	// Calculate the variances for the EKF innovation consistency check
+ 	// We're using a combination of different noise sources to estimate the TAS measurement variance
+ 	// These are specified as separate noise contributions to allow different noise sources to be turned on and off for testing
+-	const float R_TAS = sq(matrix::constrain(_params.eas_noise, 0.5f, 5.0f) *
+-        matrix::constrain(_airspeed_sample_delayed.eas2tas, 0.9f, 10.0f));
++	const float R_TAS = sq(fminf(fmaxf(_params.eas_noise, 0.5f), 5.0f) *
++        fminf(fmaxf(_airspeed_sample_delayed.eas2tas, 0.9f), 10.0f));
+ 
+ 	// innovation variance
+ 	float innov_var = P(22, 22) + R_TAS;
