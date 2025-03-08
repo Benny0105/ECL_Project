@@ -123,6 +123,60 @@ ECL_Project/fast:
 	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/build
 .PHONY : ECL_Project/fast
 
+ecl/EKF/EKFGSF_yaw.o: ecl/EKF/EKFGSF_yaw.cpp.o
+
+.PHONY : ecl/EKF/EKFGSF_yaw.o
+
+# target to build an object file
+ecl/EKF/EKFGSF_yaw.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.o
+.PHONY : ecl/EKF/EKFGSF_yaw.cpp.o
+
+ecl/EKF/EKFGSF_yaw.i: ecl/EKF/EKFGSF_yaw.cpp.i
+
+.PHONY : ecl/EKF/EKFGSF_yaw.i
+
+# target to preprocess a source file
+ecl/EKF/EKFGSF_yaw.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.i
+.PHONY : ecl/EKF/EKFGSF_yaw.cpp.i
+
+ecl/EKF/EKFGSF_yaw.s: ecl/EKF/EKFGSF_yaw.cpp.s
+
+.PHONY : ecl/EKF/EKFGSF_yaw.s
+
+# target to generate assembly for a file
+ecl/EKF/EKFGSF_yaw.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.s
+.PHONY : ecl/EKF/EKFGSF_yaw.cpp.s
+
+ecl/EKF/airspeed_fusion.o: ecl/EKF/airspeed_fusion.cpp.o
+
+.PHONY : ecl/EKF/airspeed_fusion.o
+
+# target to build an object file
+ecl/EKF/airspeed_fusion.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.o
+.PHONY : ecl/EKF/airspeed_fusion.cpp.o
+
+ecl/EKF/airspeed_fusion.i: ecl/EKF/airspeed_fusion.cpp.i
+
+.PHONY : ecl/EKF/airspeed_fusion.i
+
+# target to preprocess a source file
+ecl/EKF/airspeed_fusion.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.i
+.PHONY : ecl/EKF/airspeed_fusion.cpp.i
+
+ecl/EKF/airspeed_fusion.s: ecl/EKF/airspeed_fusion.cpp.s
+
+.PHONY : ecl/EKF/airspeed_fusion.s
+
+# target to generate assembly for a file
+ecl/EKF/airspeed_fusion.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.s
+.PHONY : ecl/EKF/airspeed_fusion.cpp.s
+
 ecl/EKF/control.o: ecl/EKF/control.cpp.o
 
 .PHONY : ecl/EKF/control.o
@@ -149,6 +203,87 @@ ecl/EKF/control.s: ecl/EKF/control.cpp.s
 ecl/EKF/control.cpp.s:
 	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.s
 .PHONY : ecl/EKF/control.cpp.s
+
+ecl/EKF/covariance.o: ecl/EKF/covariance.cpp.o
+
+.PHONY : ecl/EKF/covariance.o
+
+# target to build an object file
+ecl/EKF/covariance.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.o
+.PHONY : ecl/EKF/covariance.cpp.o
+
+ecl/EKF/covariance.i: ecl/EKF/covariance.cpp.i
+
+.PHONY : ecl/EKF/covariance.i
+
+# target to preprocess a source file
+ecl/EKF/covariance.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.i
+.PHONY : ecl/EKF/covariance.cpp.i
+
+ecl/EKF/covariance.s: ecl/EKF/covariance.cpp.s
+
+.PHONY : ecl/EKF/covariance.s
+
+# target to generate assembly for a file
+ecl/EKF/covariance.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.s
+.PHONY : ecl/EKF/covariance.cpp.s
+
+ecl/EKF/drag_fusion.o: ecl/EKF/drag_fusion.cpp.o
+
+.PHONY : ecl/EKF/drag_fusion.o
+
+# target to build an object file
+ecl/EKF/drag_fusion.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.o
+.PHONY : ecl/EKF/drag_fusion.cpp.o
+
+ecl/EKF/drag_fusion.i: ecl/EKF/drag_fusion.cpp.i
+
+.PHONY : ecl/EKF/drag_fusion.i
+
+# target to preprocess a source file
+ecl/EKF/drag_fusion.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.i
+.PHONY : ecl/EKF/drag_fusion.cpp.i
+
+ecl/EKF/drag_fusion.s: ecl/EKF/drag_fusion.cpp.s
+
+.PHONY : ecl/EKF/drag_fusion.s
+
+# target to generate assembly for a file
+ecl/EKF/drag_fusion.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.s
+.PHONY : ecl/EKF/drag_fusion.cpp.s
+
+ecl/EKF/ekf.o: ecl/EKF/ekf.cpp.o
+
+.PHONY : ecl/EKF/ekf.o
+
+# target to build an object file
+ecl/EKF/ekf.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.o
+.PHONY : ecl/EKF/ekf.cpp.o
+
+ecl/EKF/ekf.i: ecl/EKF/ekf.cpp.i
+
+.PHONY : ecl/EKF/ekf.i
+
+# target to preprocess a source file
+ecl/EKF/ekf.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.i
+.PHONY : ecl/EKF/ekf.cpp.i
+
+ecl/EKF/ekf.s: ecl/EKF/ekf.cpp.s
+
+.PHONY : ecl/EKF/ekf.s
+
+# target to generate assembly for a file
+ecl/EKF/ekf.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.s
+.PHONY : ecl/EKF/ekf.cpp.s
 
 ecl/EKF/ekf_helper.o: ecl/EKF/ekf_helper.cpp.o
 
@@ -177,32 +312,464 @@ ecl/EKF/ekf_helper.cpp.s:
 	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.s
 .PHONY : ecl/EKF/ekf_helper.cpp.s
 
-src/ekf_main.o: src/ekf_main.cpp.o
+ecl/EKF/estimator_interface.o: ecl/EKF/estimator_interface.cpp.o
 
-.PHONY : src/ekf_main.o
+.PHONY : ecl/EKF/estimator_interface.o
 
 # target to build an object file
-src/ekf_main.cpp.o:
-	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.o
-.PHONY : src/ekf_main.cpp.o
+ecl/EKF/estimator_interface.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.o
+.PHONY : ecl/EKF/estimator_interface.cpp.o
 
-src/ekf_main.i: src/ekf_main.cpp.i
+ecl/EKF/estimator_interface.i: ecl/EKF/estimator_interface.cpp.i
 
-.PHONY : src/ekf_main.i
+.PHONY : ecl/EKF/estimator_interface.i
 
 # target to preprocess a source file
-src/ekf_main.cpp.i:
-	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.i
-.PHONY : src/ekf_main.cpp.i
+ecl/EKF/estimator_interface.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.i
+.PHONY : ecl/EKF/estimator_interface.cpp.i
 
-src/ekf_main.s: src/ekf_main.cpp.s
+ecl/EKF/estimator_interface.s: ecl/EKF/estimator_interface.cpp.s
 
-.PHONY : src/ekf_main.s
+.PHONY : ecl/EKF/estimator_interface.s
 
 # target to generate assembly for a file
-src/ekf_main.cpp.s:
-	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.s
-.PHONY : src/ekf_main.cpp.s
+ecl/EKF/estimator_interface.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.s
+.PHONY : ecl/EKF/estimator_interface.cpp.s
+
+ecl/EKF/gps_checks.o: ecl/EKF/gps_checks.cpp.o
+
+.PHONY : ecl/EKF/gps_checks.o
+
+# target to build an object file
+ecl/EKF/gps_checks.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.o
+.PHONY : ecl/EKF/gps_checks.cpp.o
+
+ecl/EKF/gps_checks.i: ecl/EKF/gps_checks.cpp.i
+
+.PHONY : ecl/EKF/gps_checks.i
+
+# target to preprocess a source file
+ecl/EKF/gps_checks.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.i
+.PHONY : ecl/EKF/gps_checks.cpp.i
+
+ecl/EKF/gps_checks.s: ecl/EKF/gps_checks.cpp.s
+
+.PHONY : ecl/EKF/gps_checks.s
+
+# target to generate assembly for a file
+ecl/EKF/gps_checks.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.s
+.PHONY : ecl/EKF/gps_checks.cpp.s
+
+ecl/EKF/gps_yaw_fusion.o: ecl/EKF/gps_yaw_fusion.cpp.o
+
+.PHONY : ecl/EKF/gps_yaw_fusion.o
+
+# target to build an object file
+ecl/EKF/gps_yaw_fusion.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.o
+.PHONY : ecl/EKF/gps_yaw_fusion.cpp.o
+
+ecl/EKF/gps_yaw_fusion.i: ecl/EKF/gps_yaw_fusion.cpp.i
+
+.PHONY : ecl/EKF/gps_yaw_fusion.i
+
+# target to preprocess a source file
+ecl/EKF/gps_yaw_fusion.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.i
+.PHONY : ecl/EKF/gps_yaw_fusion.cpp.i
+
+ecl/EKF/gps_yaw_fusion.s: ecl/EKF/gps_yaw_fusion.cpp.s
+
+.PHONY : ecl/EKF/gps_yaw_fusion.s
+
+# target to generate assembly for a file
+ecl/EKF/gps_yaw_fusion.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.s
+.PHONY : ecl/EKF/gps_yaw_fusion.cpp.s
+
+ecl/EKF/imu_down_sampler.o: ecl/EKF/imu_down_sampler.cpp.o
+
+.PHONY : ecl/EKF/imu_down_sampler.o
+
+# target to build an object file
+ecl/EKF/imu_down_sampler.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.o
+.PHONY : ecl/EKF/imu_down_sampler.cpp.o
+
+ecl/EKF/imu_down_sampler.i: ecl/EKF/imu_down_sampler.cpp.i
+
+.PHONY : ecl/EKF/imu_down_sampler.i
+
+# target to preprocess a source file
+ecl/EKF/imu_down_sampler.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.i
+.PHONY : ecl/EKF/imu_down_sampler.cpp.i
+
+ecl/EKF/imu_down_sampler.s: ecl/EKF/imu_down_sampler.cpp.s
+
+.PHONY : ecl/EKF/imu_down_sampler.s
+
+# target to generate assembly for a file
+ecl/EKF/imu_down_sampler.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.s
+.PHONY : ecl/EKF/imu_down_sampler.cpp.s
+
+ecl/EKF/mag_control.o: ecl/EKF/mag_control.cpp.o
+
+.PHONY : ecl/EKF/mag_control.o
+
+# target to build an object file
+ecl/EKF/mag_control.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.o
+.PHONY : ecl/EKF/mag_control.cpp.o
+
+ecl/EKF/mag_control.i: ecl/EKF/mag_control.cpp.i
+
+.PHONY : ecl/EKF/mag_control.i
+
+# target to preprocess a source file
+ecl/EKF/mag_control.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.i
+.PHONY : ecl/EKF/mag_control.cpp.i
+
+ecl/EKF/mag_control.s: ecl/EKF/mag_control.cpp.s
+
+.PHONY : ecl/EKF/mag_control.s
+
+# target to generate assembly for a file
+ecl/EKF/mag_control.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.s
+.PHONY : ecl/EKF/mag_control.cpp.s
+
+ecl/EKF/mag_fusion.o: ecl/EKF/mag_fusion.cpp.o
+
+.PHONY : ecl/EKF/mag_fusion.o
+
+# target to build an object file
+ecl/EKF/mag_fusion.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.o
+.PHONY : ecl/EKF/mag_fusion.cpp.o
+
+ecl/EKF/mag_fusion.i: ecl/EKF/mag_fusion.cpp.i
+
+.PHONY : ecl/EKF/mag_fusion.i
+
+# target to preprocess a source file
+ecl/EKF/mag_fusion.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.i
+.PHONY : ecl/EKF/mag_fusion.cpp.i
+
+ecl/EKF/mag_fusion.s: ecl/EKF/mag_fusion.cpp.s
+
+.PHONY : ecl/EKF/mag_fusion.s
+
+# target to generate assembly for a file
+ecl/EKF/mag_fusion.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.s
+.PHONY : ecl/EKF/mag_fusion.cpp.s
+
+ecl/EKF/optflow_fusion.o: ecl/EKF/optflow_fusion.cpp.o
+
+.PHONY : ecl/EKF/optflow_fusion.o
+
+# target to build an object file
+ecl/EKF/optflow_fusion.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.o
+.PHONY : ecl/EKF/optflow_fusion.cpp.o
+
+ecl/EKF/optflow_fusion.i: ecl/EKF/optflow_fusion.cpp.i
+
+.PHONY : ecl/EKF/optflow_fusion.i
+
+# target to preprocess a source file
+ecl/EKF/optflow_fusion.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.i
+.PHONY : ecl/EKF/optflow_fusion.cpp.i
+
+ecl/EKF/optflow_fusion.s: ecl/EKF/optflow_fusion.cpp.s
+
+.PHONY : ecl/EKF/optflow_fusion.s
+
+# target to generate assembly for a file
+ecl/EKF/optflow_fusion.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.s
+.PHONY : ecl/EKF/optflow_fusion.cpp.s
+
+ecl/EKF/sensor_range_finder.o: ecl/EKF/sensor_range_finder.cpp.o
+
+.PHONY : ecl/EKF/sensor_range_finder.o
+
+# target to build an object file
+ecl/EKF/sensor_range_finder.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.o
+.PHONY : ecl/EKF/sensor_range_finder.cpp.o
+
+ecl/EKF/sensor_range_finder.i: ecl/EKF/sensor_range_finder.cpp.i
+
+.PHONY : ecl/EKF/sensor_range_finder.i
+
+# target to preprocess a source file
+ecl/EKF/sensor_range_finder.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.i
+.PHONY : ecl/EKF/sensor_range_finder.cpp.i
+
+ecl/EKF/sensor_range_finder.s: ecl/EKF/sensor_range_finder.cpp.s
+
+.PHONY : ecl/EKF/sensor_range_finder.s
+
+# target to generate assembly for a file
+ecl/EKF/sensor_range_finder.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.s
+.PHONY : ecl/EKF/sensor_range_finder.cpp.s
+
+ecl/EKF/sideslip_fusion.o: ecl/EKF/sideslip_fusion.cpp.o
+
+.PHONY : ecl/EKF/sideslip_fusion.o
+
+# target to build an object file
+ecl/EKF/sideslip_fusion.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.o
+.PHONY : ecl/EKF/sideslip_fusion.cpp.o
+
+ecl/EKF/sideslip_fusion.i: ecl/EKF/sideslip_fusion.cpp.i
+
+.PHONY : ecl/EKF/sideslip_fusion.i
+
+# target to preprocess a source file
+ecl/EKF/sideslip_fusion.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.i
+.PHONY : ecl/EKF/sideslip_fusion.cpp.i
+
+ecl/EKF/sideslip_fusion.s: ecl/EKF/sideslip_fusion.cpp.s
+
+.PHONY : ecl/EKF/sideslip_fusion.s
+
+# target to generate assembly for a file
+ecl/EKF/sideslip_fusion.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.s
+.PHONY : ecl/EKF/sideslip_fusion.cpp.s
+
+ecl/EKF/terrain_estimator.o: ecl/EKF/terrain_estimator.cpp.o
+
+.PHONY : ecl/EKF/terrain_estimator.o
+
+# target to build an object file
+ecl/EKF/terrain_estimator.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.o
+.PHONY : ecl/EKF/terrain_estimator.cpp.o
+
+ecl/EKF/terrain_estimator.i: ecl/EKF/terrain_estimator.cpp.i
+
+.PHONY : ecl/EKF/terrain_estimator.i
+
+# target to preprocess a source file
+ecl/EKF/terrain_estimator.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.i
+.PHONY : ecl/EKF/terrain_estimator.cpp.i
+
+ecl/EKF/terrain_estimator.s: ecl/EKF/terrain_estimator.cpp.s
+
+.PHONY : ecl/EKF/terrain_estimator.s
+
+# target to generate assembly for a file
+ecl/EKF/terrain_estimator.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.s
+.PHONY : ecl/EKF/terrain_estimator.cpp.s
+
+ecl/EKF/utils.o: ecl/EKF/utils.cpp.o
+
+.PHONY : ecl/EKF/utils.o
+
+# target to build an object file
+ecl/EKF/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.o
+.PHONY : ecl/EKF/utils.cpp.o
+
+ecl/EKF/utils.i: ecl/EKF/utils.cpp.i
+
+.PHONY : ecl/EKF/utils.i
+
+# target to preprocess a source file
+ecl/EKF/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.i
+.PHONY : ecl/EKF/utils.cpp.i
+
+ecl/EKF/utils.s: ecl/EKF/utils.cpp.s
+
+.PHONY : ecl/EKF/utils.s
+
+# target to generate assembly for a file
+ecl/EKF/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.s
+.PHONY : ecl/EKF/utils.cpp.s
+
+ecl/EKF/vel_pos_fusion.o: ecl/EKF/vel_pos_fusion.cpp.o
+
+.PHONY : ecl/EKF/vel_pos_fusion.o
+
+# target to build an object file
+ecl/EKF/vel_pos_fusion.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.o
+.PHONY : ecl/EKF/vel_pos_fusion.cpp.o
+
+ecl/EKF/vel_pos_fusion.i: ecl/EKF/vel_pos_fusion.cpp.i
+
+.PHONY : ecl/EKF/vel_pos_fusion.i
+
+# target to preprocess a source file
+ecl/EKF/vel_pos_fusion.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.i
+.PHONY : ecl/EKF/vel_pos_fusion.cpp.i
+
+ecl/EKF/vel_pos_fusion.s: ecl/EKF/vel_pos_fusion.cpp.s
+
+.PHONY : ecl/EKF/vel_pos_fusion.s
+
+# target to generate assembly for a file
+ecl/EKF/vel_pos_fusion.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.s
+.PHONY : ecl/EKF/vel_pos_fusion.cpp.s
+
+ecl/airdata/WindEstimator.o: ecl/airdata/WindEstimator.cpp.o
+
+.PHONY : ecl/airdata/WindEstimator.o
+
+# target to build an object file
+ecl/airdata/WindEstimator.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.o
+.PHONY : ecl/airdata/WindEstimator.cpp.o
+
+ecl/airdata/WindEstimator.i: ecl/airdata/WindEstimator.cpp.i
+
+.PHONY : ecl/airdata/WindEstimator.i
+
+# target to preprocess a source file
+ecl/airdata/WindEstimator.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.i
+.PHONY : ecl/airdata/WindEstimator.cpp.i
+
+ecl/airdata/WindEstimator.s: ecl/airdata/WindEstimator.cpp.s
+
+.PHONY : ecl/airdata/WindEstimator.s
+
+# target to generate assembly for a file
+ecl/airdata/WindEstimator.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.s
+.PHONY : ecl/airdata/WindEstimator.cpp.s
+
+ecl/geo/geo.o: ecl/geo/geo.cpp.o
+
+.PHONY : ecl/geo/geo.o
+
+# target to build an object file
+ecl/geo/geo.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.o
+.PHONY : ecl/geo/geo.cpp.o
+
+ecl/geo/geo.i: ecl/geo/geo.cpp.i
+
+.PHONY : ecl/geo/geo.i
+
+# target to preprocess a source file
+ecl/geo/geo.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.i
+.PHONY : ecl/geo/geo.cpp.i
+
+ecl/geo/geo.s: ecl/geo/geo.cpp.s
+
+.PHONY : ecl/geo/geo.s
+
+# target to generate assembly for a file
+ecl/geo/geo.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.s
+.PHONY : ecl/geo/geo.cpp.s
+
+ecl/geo_lookup/geo_mag_declination.o: ecl/geo_lookup/geo_mag_declination.cpp.o
+
+.PHONY : ecl/geo_lookup/geo_mag_declination.o
+
+# target to build an object file
+ecl/geo_lookup/geo_mag_declination.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.o
+.PHONY : ecl/geo_lookup/geo_mag_declination.cpp.o
+
+ecl/geo_lookup/geo_mag_declination.i: ecl/geo_lookup/geo_mag_declination.cpp.i
+
+.PHONY : ecl/geo_lookup/geo_mag_declination.i
+
+# target to preprocess a source file
+ecl/geo_lookup/geo_mag_declination.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.i
+.PHONY : ecl/geo_lookup/geo_mag_declination.cpp.i
+
+ecl/geo_lookup/geo_mag_declination.s: ecl/geo_lookup/geo_mag_declination.cpp.s
+
+.PHONY : ecl/geo_lookup/geo_mag_declination.s
+
+# target to generate assembly for a file
+ecl/geo_lookup/geo_mag_declination.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.s
+.PHONY : ecl/geo_lookup/geo_mag_declination.cpp.s
+
+src/ekf_runner.o: src/ekf_runner.cpp.o
+
+.PHONY : src/ekf_runner.o
+
+# target to build an object file
+src/ekf_runner.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.o
+.PHONY : src/ekf_runner.cpp.o
+
+src/ekf_runner.i: src/ekf_runner.cpp.i
+
+.PHONY : src/ekf_runner.i
+
+# target to preprocess a source file
+src/ekf_runner.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.i
+.PHONY : src/ekf_runner.cpp.i
+
+src/ekf_runner.s: src/ekf_runner.cpp.s
+
+.PHONY : src/ekf_runner.s
+
+# target to generate assembly for a file
+src/ekf_runner.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.s
+.PHONY : src/ekf_runner.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ECL_Project.dir/build.make CMakeFiles/ECL_Project.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/sensor_data_loader.o: src/sensor_data_loader.cpp.o
 
@@ -240,15 +807,78 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ECL_Project"
+	@echo "... ecl/EKF/EKFGSF_yaw.o"
+	@echo "... ecl/EKF/EKFGSF_yaw.i"
+	@echo "... ecl/EKF/EKFGSF_yaw.s"
+	@echo "... ecl/EKF/airspeed_fusion.o"
+	@echo "... ecl/EKF/airspeed_fusion.i"
+	@echo "... ecl/EKF/airspeed_fusion.s"
 	@echo "... ecl/EKF/control.o"
 	@echo "... ecl/EKF/control.i"
 	@echo "... ecl/EKF/control.s"
+	@echo "... ecl/EKF/covariance.o"
+	@echo "... ecl/EKF/covariance.i"
+	@echo "... ecl/EKF/covariance.s"
+	@echo "... ecl/EKF/drag_fusion.o"
+	@echo "... ecl/EKF/drag_fusion.i"
+	@echo "... ecl/EKF/drag_fusion.s"
+	@echo "... ecl/EKF/ekf.o"
+	@echo "... ecl/EKF/ekf.i"
+	@echo "... ecl/EKF/ekf.s"
 	@echo "... ecl/EKF/ekf_helper.o"
 	@echo "... ecl/EKF/ekf_helper.i"
 	@echo "... ecl/EKF/ekf_helper.s"
-	@echo "... src/ekf_main.o"
-	@echo "... src/ekf_main.i"
-	@echo "... src/ekf_main.s"
+	@echo "... ecl/EKF/estimator_interface.o"
+	@echo "... ecl/EKF/estimator_interface.i"
+	@echo "... ecl/EKF/estimator_interface.s"
+	@echo "... ecl/EKF/gps_checks.o"
+	@echo "... ecl/EKF/gps_checks.i"
+	@echo "... ecl/EKF/gps_checks.s"
+	@echo "... ecl/EKF/gps_yaw_fusion.o"
+	@echo "... ecl/EKF/gps_yaw_fusion.i"
+	@echo "... ecl/EKF/gps_yaw_fusion.s"
+	@echo "... ecl/EKF/imu_down_sampler.o"
+	@echo "... ecl/EKF/imu_down_sampler.i"
+	@echo "... ecl/EKF/imu_down_sampler.s"
+	@echo "... ecl/EKF/mag_control.o"
+	@echo "... ecl/EKF/mag_control.i"
+	@echo "... ecl/EKF/mag_control.s"
+	@echo "... ecl/EKF/mag_fusion.o"
+	@echo "... ecl/EKF/mag_fusion.i"
+	@echo "... ecl/EKF/mag_fusion.s"
+	@echo "... ecl/EKF/optflow_fusion.o"
+	@echo "... ecl/EKF/optflow_fusion.i"
+	@echo "... ecl/EKF/optflow_fusion.s"
+	@echo "... ecl/EKF/sensor_range_finder.o"
+	@echo "... ecl/EKF/sensor_range_finder.i"
+	@echo "... ecl/EKF/sensor_range_finder.s"
+	@echo "... ecl/EKF/sideslip_fusion.o"
+	@echo "... ecl/EKF/sideslip_fusion.i"
+	@echo "... ecl/EKF/sideslip_fusion.s"
+	@echo "... ecl/EKF/terrain_estimator.o"
+	@echo "... ecl/EKF/terrain_estimator.i"
+	@echo "... ecl/EKF/terrain_estimator.s"
+	@echo "... ecl/EKF/utils.o"
+	@echo "... ecl/EKF/utils.i"
+	@echo "... ecl/EKF/utils.s"
+	@echo "... ecl/EKF/vel_pos_fusion.o"
+	@echo "... ecl/EKF/vel_pos_fusion.i"
+	@echo "... ecl/EKF/vel_pos_fusion.s"
+	@echo "... ecl/airdata/WindEstimator.o"
+	@echo "... ecl/airdata/WindEstimator.i"
+	@echo "... ecl/airdata/WindEstimator.s"
+	@echo "... ecl/geo/geo.o"
+	@echo "... ecl/geo/geo.i"
+	@echo "... ecl/geo/geo.s"
+	@echo "... ecl/geo_lookup/geo_mag_declination.o"
+	@echo "... ecl/geo_lookup/geo_mag_declination.i"
+	@echo "... ecl/geo_lookup/geo_mag_declination.s"
+	@echo "... src/ekf_runner.o"
+	@echo "... src/ekf_runner.i"
+	@echo "... src/ekf_runner.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/sensor_data_loader.o"
 	@echo "... src/sensor_data_loader.i"
 	@echo "... src/sensor_data_loader.s"

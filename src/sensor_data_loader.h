@@ -1,48 +1,74 @@
-#pragma once
+#ifndef SENSOR_DATA_LOADER_H
+#define SENSOR_DATA_LOADER_H
 
-#include <vector>
 #include <string>
+#include <vector>
+#include <cstdint>
+#include <Eigen/Dense>
 
-// (A) 暫存 vehicle_imu 資料 (加速度 & 角速度)
-struct ImuData {
-    double timestamp;  // us (microseconds)
-    float accel_x, accel_y, accel_z;
-    float gyro_x, gyro_y, gyro_z;
+// IMU數據結構，對應PX4格式
+struct ImuSample {
+    uint64_t timestamp_us;
+    float delta_angle_dt;
+    float delta_velocity_dt;
+    Eigen::Vector3f delta_angle;
+    Eigen::Vector3f delta_velocity;
 };
 
-// (B) 暫存 vehicle_air_data 資料 (氣壓高度)
-struct AirData {
-    double timestamp;   // us
-    float baro_alt_m;   // 由 vehicle_air_data 產生的 baro altitude
+// 氣壓計數據結構，對應PX4格式
+struct BaroSample {
+    uint64_t timestamp_us;
+    float pressure_pa;
+    float altitude_m;
 };
 
-// (C) 暫存 vehicle_gps_position 資料 (GPS)
-struct GpsData {
-    double timestamp; // us
-    double lat, lon;  // degree
-    float alt;        // m (海拔)
-    float vel_n_m_s;  // 北向速度
-    float vel_e_m_s;  // 東向速度
-    float vel_d_m_s;  // 垂直速度
+// GPS數據結構，對應PX4格式
+struct GpsSample {
+    uint64_t timestamp_us;
+    double lat;  // 緯度（度）
+    double lon;  // 經度（度）
+    float alt;   // 高度（米）
+    Eigen::Vector3f vel_ned; // 北東下速度（米/秒）
+    uint8_t fix_type;
+    float eph;   // 水平位置不確定性（米）
+    float epv;   // 垂直位置不確定性（米）
+    float sacc;  // 速度不確定性（米/秒）
+    uint8_t nsats; // 衛星數量
 };
 
-// (D) 統合後，EKF 每個時刻需要的資料
-struct SensorData {
-    double timestamp_s;    // 以「秒」為單位 => 將 us 轉成 s
-
-    float accel_x, accel_y, accel_z;
-    float gyro_x, gyro_y, gyro_z;
-
-    float baro_alt;   // 氣壓高度
-    double lat, lon;  // GPS (度)
-    float gps_alt;    // GPS 高度 (m)
-    float velN, velE, velD; // GPS NED 速度 (m/s)
+// 磁力計數據結構，對應PX4格式
+struct MagSample {
+    uint64_t timestamp_us;
+    Eigen::Vector3f mag; // 磁場（高斯）
 };
 
-// 函式宣告
-std::vector<SensorData> mergeThreeCsv(
-    const std::string &imu_csv_path,
-    const std::string &airdata_csv_path,
-    const std::string &gps_csv_path);
+// 數據載入類
+class SensorDataLoader {
+public:
+    // 通過文件標題行自動識別傳感器類型
+    enum SensorType {
+        IMU,
+        BARO,
+        GPS,
+        MAG,
+        UNKNOWN
+    };
+    
+    // 自動識別並載入CSV文件
+    static SensorType identifySensorType(const std::string& csv_path);
+    
+    // 載入各類型傳感器數據
+    static std::vector<ImuSample> loadImuData(const std::string& csv_path);
+    static std::vector<BaroSample> loadBaroData(const std::string& csv_path);
+    static std::vector<GpsSample> loadGpsData(const std::string& csv_path);
+    static std::vector<MagSample> loadMagData(const std::string& csv_path);
+    
+    // 從命令行參數加載所有數據
+    static bool loadAllSensorData(int argc, char** argv,
+                                  std::vector<ImuSample>& imu_data,
+                                  std::vector<BaroSample>& baro_data,
+                                  std::vector<GpsSample>& gps_data,
+                                  std::vector<MagSample>& mag_data);
+};
 
-
+#endif // SENSOR_DATA_LOADER_H

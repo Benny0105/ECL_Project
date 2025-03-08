@@ -57,18 +57,18 @@ include CMakeFiles/ECL_Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ECL_Project.dir/flags.make
 
-CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
-CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.o: ../src/ekf_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.o -c /home/benny/ECL_Project/src/ekf_main.cpp
+CMakeFiles/ECL_Project.dir/src/main.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ECL_Project.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/src/main.cpp.o -c /home/benny/ECL_Project/src/main.cpp
 
-CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/src/ekf_main.cpp > CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.i
+CMakeFiles/ECL_Project.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/src/main.cpp > CMakeFiles/ECL_Project.dir/src/main.cpp.i
 
-CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/src/ekf_main.cpp -o CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.s
+CMakeFiles/ECL_Project.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/src/main.cpp -o CMakeFiles/ECL_Project.dir/src/main.cpp.s
 
 CMakeFiles/ECL_Project.dir/src/sensor_data_loader.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
 CMakeFiles/ECL_Project.dir/src/sensor_data_loader.cpp.o: ../src/sensor_data_loader.cpp
@@ -83,9 +83,48 @@ CMakeFiles/ECL_Project.dir/src/sensor_data_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/src/sensor_data_loader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/src/sensor_data_loader.cpp -o CMakeFiles/ECL_Project.dir/src/sensor_data_loader.cpp.s
 
+CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.o: ../src/ekf_runner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.o -c /home/benny/ECL_Project/src/ekf_runner.cpp
+
+CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/src/ekf_runner.cpp > CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.i
+
+CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/src/ekf_runner.cpp -o CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.o: ../ecl/EKF/EKFGSF_yaw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.o -c /home/benny/ECL_Project/ecl/EKF/EKFGSF_yaw.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/EKFGSF_yaw.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/EKFGSF_yaw.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.o: ../ecl/EKF/airspeed_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.o -c /home/benny/ECL_Project/ecl/EKF/airspeed_fusion.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/airspeed_fusion.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/airspeed_fusion.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.s
+
 CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
 CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.o: ../ecl/EKF/control.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.o -c /home/benny/ECL_Project/ecl/EKF/control.cpp
 
 CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.i: cmake_force
@@ -96,9 +135,48 @@ CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/control.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.s
 
+CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.o: ../ecl/EKF/covariance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.o -c /home/benny/ECL_Project/ecl/EKF/covariance.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/covariance.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/covariance.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.o: ../ecl/EKF/drag_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.o -c /home/benny/ECL_Project/ecl/EKF/drag_fusion.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/drag_fusion.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/drag_fusion.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.o: ../ecl/EKF/ekf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.o -c /home/benny/ECL_Project/ecl/EKF/ekf.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/ekf.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/ekf.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.s
+
 CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
 CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o: ../ecl/EKF/ekf_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o -c /home/benny/ECL_Project/ecl/EKF/ekf_helper.cpp
 
 CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.i: cmake_force
@@ -109,27 +187,268 @@ CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/ekf_helper.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.s
 
+CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.o: ../ecl/EKF/estimator_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.o -c /home/benny/ECL_Project/ecl/EKF/estimator_interface.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/estimator_interface.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/estimator_interface.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.o: ../ecl/EKF/gps_checks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.o -c /home/benny/ECL_Project/ecl/EKF/gps_checks.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/gps_checks.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/gps_checks.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.o: ../ecl/EKF/gps_yaw_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.o -c /home/benny/ECL_Project/ecl/EKF/gps_yaw_fusion.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/gps_yaw_fusion.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/gps_yaw_fusion.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.o: ../ecl/EKF/imu_down_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.o -c /home/benny/ECL_Project/ecl/EKF/imu_down_sampler.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/imu_down_sampler.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/imu_down_sampler.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.o: ../ecl/EKF/mag_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.o -c /home/benny/ECL_Project/ecl/EKF/mag_control.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/mag_control.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/mag_control.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.o: ../ecl/EKF/mag_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.o -c /home/benny/ECL_Project/ecl/EKF/mag_fusion.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/mag_fusion.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/mag_fusion.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.o: ../ecl/EKF/optflow_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.o -c /home/benny/ECL_Project/ecl/EKF/optflow_fusion.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/optflow_fusion.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/optflow_fusion.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.o: ../ecl/EKF/sensor_range_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.o -c /home/benny/ECL_Project/ecl/EKF/sensor_range_finder.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/sensor_range_finder.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/sensor_range_finder.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.o: ../ecl/EKF/sideslip_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.o -c /home/benny/ECL_Project/ecl/EKF/sideslip_fusion.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/sideslip_fusion.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/sideslip_fusion.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.o: ../ecl/EKF/terrain_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.o -c /home/benny/ECL_Project/ecl/EKF/terrain_estimator.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/terrain_estimator.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/terrain_estimator.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.o: ../ecl/EKF/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.o -c /home/benny/ECL_Project/ecl/EKF/utils.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/utils.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/utils.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.o: ../ecl/EKF/vel_pos_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.o -c /home/benny/ECL_Project/ecl/EKF/vel_pos_fusion.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/EKF/vel_pos_fusion.cpp > CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/EKF/vel_pos_fusion.cpp -o CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.o: ../ecl/airdata/WindEstimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.o -c /home/benny/ECL_Project/ecl/airdata/WindEstimator.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/airdata/WindEstimator.cpp > CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/airdata/WindEstimator.cpp -o CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.o: ../ecl/geo/geo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.o -c /home/benny/ECL_Project/ecl/geo/geo.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/geo/geo.cpp > CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/geo/geo.cpp -o CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.s
+
+CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.o: CMakeFiles/ECL_Project.dir/flags.make
+CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.o: ../ecl/geo_lookup/geo_mag_declination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.o -c /home/benny/ECL_Project/ecl/geo_lookup/geo_mag_declination.cpp
+
+CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/benny/ECL_Project/ecl/geo_lookup/geo_mag_declination.cpp > CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.i
+
+CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/benny/ECL_Project/ecl/geo_lookup/geo_mag_declination.cpp -o CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.s
+
 # Object files for target ECL_Project
 ECL_Project_OBJECTS = \
-"CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.o" \
+"CMakeFiles/ECL_Project.dir/src/main.cpp.o" \
 "CMakeFiles/ECL_Project.dir/src/sensor_data_loader.cpp.o" \
+"CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.o" \
 "CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.o" \
-"CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o"
+"CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.o" \
+"CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.o"
 
 # External object files for target ECL_Project
 ECL_Project_EXTERNAL_OBJECTS =
 
-ECL_Project: CMakeFiles/ECL_Project.dir/src/ekf_main.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/src/main.cpp.o
 ECL_Project: CMakeFiles/ECL_Project.dir/src/sensor_data_loader.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/src/ekf_runner.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/EKFGSF_yaw.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/airspeed_fusion.cpp.o
 ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/control.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/covariance.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/drag_fusion.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/ekf.cpp.o
 ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/ekf_helper.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/estimator_interface.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/gps_checks.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/gps_yaw_fusion.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/imu_down_sampler.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/mag_control.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/mag_fusion.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/optflow_fusion.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/sensor_range_finder.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/sideslip_fusion.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/terrain_estimator.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/utils.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/EKF/vel_pos_fusion.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/airdata/WindEstimator.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/geo/geo.cpp.o
+ECL_Project: CMakeFiles/ECL_Project.dir/ecl/geo_lookup/geo_mag_declination.cpp.o
 ECL_Project: CMakeFiles/ECL_Project.dir/build.make
 ECL_Project: ../ecl/build/EKF/libecl_EKF.a
 ECL_Project: ../ecl/build/airdata/libecl_airdata.a
 ECL_Project: ../ecl/build/geo/libecl_geo.a
 ECL_Project: ../ecl/build/geo_lookup/libecl_geo_lookup.a
+ECL_Project: ../ecl/build/EKF/libecl_EKF.a
+ECL_Project: ../ecl/build/airdata/libecl_airdata.a
+ECL_Project: ../ecl/build/geo/libecl_geo.a
+ECL_Project: ../ecl/build/geo_lookup/libecl_geo_lookup.a
 ECL_Project: CMakeFiles/ECL_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ECL_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/benny/ECL_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable ECL_Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ECL_Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
